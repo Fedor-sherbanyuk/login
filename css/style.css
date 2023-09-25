@@ -1,0 +1,208 @@
+/*main*/
+body {
+    background: #D8EEFF;
+    position: relative;
+    z-index: 5;
+
+}
+
+.wrapper {
+    display: flex;
+    width: 1440px;
+    padding: 193.5px 0px 194.5px 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.d-flex{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+}
+.logo{
+    width: 51px;
+    height: 57px;
+    border-radius: 5.928px;
+    border: 0.52px solid #CED0DB;
+    position: relative;
+}
+.logo-img{
+    width: 24px;
+    height: 37px;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+svg{
+    width: 24px;
+    height: 37px;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+/* H3 */
+.textWelcome{
+    color: #1D1E26;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.null{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+}
+/* Text 16 */
+.textWelcome2{
+    align-self: stretch;
+    color: #1D1E26;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+/*.null2{*/
+/*    display: flex;*/
+/*    padding: 30px;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    gap: 30px;*/
+/*    border-radius: 20px;*/
+/*    background: #FFF;*/
+/*}*/
+.name1{
+    display: flex;
+    padding-right: 0px;
+    align-items: center;
+    align-self: stretch;
+}
+/* Text 14_Semi Bold */
+.textName{
+    color: #1D1E26;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+
+}
+.input1{
+    color: #6C6F80;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+    padding-right: 0px;
+    width: 298px;
+}
+.d-flex2 {
+    display: flex;
+    padding: 9px 0px 9px 6px;
+    align-items: center;
+    flex: 1 0 0;
+    margin: -40px 0 0 -10px;
+    gap: 0;
+}
+.null3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+.name2{
+    display: flex;
+    padding-right: 0px;
+    align-items: center;
+    align-self: stretch;
+    margin-top: -30px;
+}
+.name2>div{
+    color: #1D1E26;
+    /* Text 14_Semi Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+}
+.d-flex3{
+    display: flex;
+    padding: 9px 0px 9px 6px;
+    align-items: center;
+    flex: 1 0 0;
+    margin: -40px 0 0 -10px;
+}
+.input2{
+    color: #6C6F80;
+    /* Text 14_Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+    width: 298px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+a{
+    color: #0489EA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+    margin: -38px 0 0 -155px;
+    text-decoration: none;
+}
+.null4{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    background: #FFF;
+}
+.button{
+    display: flex;
+    width: 310px;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #0489EA;
+    margin: -10px 0 0 0;
+}
+.button>div{
+    color:  #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
