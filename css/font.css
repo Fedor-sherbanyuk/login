@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:ital@1&display=swap');
 
 @font-face {
     font-family: 'sourceSansPro';
@@ -6,7 +7,21 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('../fonts/sourceSansPro/sourcesanspro-black-webfont.woff2') format('woff2'),
+    url('../fonts/sourceSansPro/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourceSansPro/sourcesanspro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/sourceSansPro/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*@font-face {*/
 /*    font-family: 'ralewaybold';*/
