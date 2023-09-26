@@ -3,27 +3,31 @@ body {
     background: #D8EEFF;
     position: relative;
     z-index: 5;
-
+    margin: 0;
+    overflow: hidden;
 }
 
 .wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 100px 0;
     display: flex;
-    width: 1440px;
-    padding: 193.5px 0px 194.5px 0px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
 }
 
+
 .d-flex {
     display: flex;
-    padding: 30px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     border-radius: 20px;
     background: #FFFFFF;
     position: relative;
+    padding: 30px;
 }
 
 .logo {
@@ -196,23 +200,18 @@ a {
         padding: 20px 0;
     }
 
-    .textWelcome {
-        font-size: 20px;
-    }
 }
+
 @media (max-width: 1200px) {
-    body{
+    body {
         overflow: hidden;
     }
 
     .wrapper {
-        width: 90%;
+        width: 100%;
         padding: 100px 0px 100px 0px;
     }
 
-    .textWelcome {
-        font-size: 20px;
-    }
 }
 
 
@@ -238,6 +237,7 @@ a {
         font-size: 20px;
     }
 }
+
 @media (max-width: 360px) {
     .wrapper {
         width: 50%;
